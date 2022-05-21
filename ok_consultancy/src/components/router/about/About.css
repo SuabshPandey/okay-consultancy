@@ -1,0 +1,100 @@
+.about_img_div{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.about_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about_desp_para{
+    text-align: justify;
+}
+
+.about_desp_div{
+    margin-top: 30px;
+}
+.bg_about_desp{
+    background-color: rgb(13 24 81);
+    margin-top: 30px;
+    color: rgb(241 157 57);
+}
+
+.about_team_div{
+    margin-top: 40px !important;
+    background-color: rgb(13 24 81);
+    color:rgb(241 157 57);
+}
+
+.about_intro_div{
+    margin-top: 30px;
+}
+
+.intro_img_div{
+    width: 100%;
+    height: 650px;
+
+}
+.intro_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro_position_desp{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.about_carousel_img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+
+.about_desp_title{
+    font-family: 'Baloo Tamma 2', cursive;
+    color:rgb(13 24 81);
+}
+.intro_position{
+    font-family: 'Baloo Tamma 2', cursive;
+    color:rgb(13 24 81);
+
+}
+
+@media only screen and (max-width: 600px){
+    .intro_img_div{
+        height: 401px;
+    
+    }
+    .intro_img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .about_carousel_img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .intro_position_desp{
+        text-align: justify;
+    }
+
+    .about_img_div{
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .about_img_div{
+        height: 250px;
+    }
+}

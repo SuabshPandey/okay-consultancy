@@ -1,0 +1,30 @@
+.country_img_div{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.custom_btn{
+    background-color: rgb(13 24 81) !important ;
+    color: rgb(241 157 57) !important;
+}
+
+.country_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+.country_img:hover{
+    transform: scale(1.1);
+    transform: skew(5);
+}
+.card_body {
+    transition: all 0.5s ease;
+    position: relative;
+    z-index: 1;
+}
+.m-2:hover .card_body {
+    margin-top: -50px;
+}
+

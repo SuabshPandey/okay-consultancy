@@ -1,0 +1,22 @@
+.country_bg {
+  background-color: rgb(199 199 199);
+}
+.course_bg {
+  background-color: whitesmoke;
+}
+.home_ok {
+  font-size: 29px;
+  font-weight: bold;
+  color: rgb(241 157 57);
+}
+.home_ok_grow {
+  font-size: 28px;
+  color: rgb(13 24 81);
+}
+.apply_form .apply {
+  border: 2px solid #f19d39;
+  background-color: #f19d39;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
